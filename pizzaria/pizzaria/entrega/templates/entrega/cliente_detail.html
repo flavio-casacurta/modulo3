@@ -17,6 +17,12 @@
     </tr>
 </table>
 
+<form action="{% url lista-clientes %}" method="post">
+<input type="hidden" name "cliente_id" value="{{cli.id}}"
+{{ formulario_os.as_p }}
+<input type="submit" name="atualizar" value >
+</form>
+
 </body>
 
 
